@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+html {
+    height: 100%;
+}
+@font-face {
+	font-family: 'FontName'; 
+	src: url(/fonts/Roboto/Roboto-Medium.ttf); 
+}
+body {
+    font-family: 'FontName';
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+	overflow: hidden;
+}
+.conteiner {
+    max-width: 1180px;
+    margin: 0 auto;  
+}
+
+.header {
+    background-color: #445162;
+    color: white;
+}
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    align-items: center;
+    
+}
+h1 {
+    font-size: 60px;
+    margin: 0 0 40px 0;
+}
+
+.header_text ul li {
+    list-style-type: none;
+    background: url('../img/icons/icon.png') 0 1px no-repeat;
+    font-size: 20px;
+    padding: 0 0 0 40px;
+    margin: 0 0 15px;
+}
+
+.header_text ul li:last-child {
+    margin: 0;
+}
+
+.content {
+    flex: 1 1 auto;
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.conteiner_1__row {
+    display: flex;
+    margin: 50px 0;
+}
+
+
+.content_1__text {
+    margin: 0 0 0 38px;
+
+}
+.content_1__text h2 {
+    margin:  0 0 35px 0;
+}
+.content_1__text p {
+    margin: 0 0 15px ;
+}
+
+.content_1__text p:last-child {
+    margin: 0;
+}
+
+
+h2 {
+    font-weight: 400;
+    color: #445161;
+    font-size: 30px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    line-height: 24px;
+}
+
+
+.content_2 {
+    background-color: #f5f5f5;
+    padding: 50px 0 30px 0;
+}
+
+.content_2__title {
+    text-align: center;
+    
+}
+
+h3 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.content_3__body {
+    margin: 0 -22.5px;
+}
+
+.content_2__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+
+
+
+
+.content_2_columns {
+   max-width: 50%;
+    display: flex;
+    padding: 0 8px 20px 8px;
+}
+.content_2_title {
+    margin: 0 0 0 15px;
+}
+
+
+.content_2__title h2 {
+    margin: 0 0 30px 0 ;
+}
+
+.content_2_title h3 {
+    margin: 0 0 15px 0;
+
+}
+
+.content_3 {
+padding: 50px 0;
+
+}
+
+
+.content_3__row {
+display: flex;
+flex: 0 1 33.333%;
+max-width: 990px;
+margin: 0 auto;
+
+}
+
+
+.content_3__title h2 {
+    margin: 0px 0 30px 0;
+    text-align: center;
+}
+
+
+
+.content_3_column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25.5px;
+    background: #445162;
+    padding: 0 0 20px 0 ;
+    border-radius: 3px;
+    flex: 0 1 33.333%;
+}
+
+.content_3__head {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: white;
+   
+}
+
+.content_3__discribe {
+    text-align: center;
+    font-size: 24px;
+    background-color: white;
+    border: 1px solid #445162;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #445162;
+    
+}
+
+.content_3_column p {
+    color: white;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+.content_3__btn {
+    background-color: white;
+    padding: 5px 5px ;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 3px;
+    color: #445162;
+}
+
+footer {
+    
+    background-color: #f5f5f5;
+    
+    
+    
+}
+
+.footer__p {
+    display: flex;
+    min-height: 65px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer__p p {
+    flex: 1 1 auto;
+    text-align: center;
+}
